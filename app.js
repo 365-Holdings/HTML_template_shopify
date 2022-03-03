@@ -1,4 +1,4 @@
-// Script for HTML template
+// Script for HTML template should be placed at the bottom of the app.js file in shopify
 // =====================================================
 
 $(document).ready(function(){

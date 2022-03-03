@@ -1,0 +1,203 @@
+/* Custom css for HTML description template should be placed at the bottom of the styles.css.scss file.
+====================================================== */
+
+.html-template .row .col-md-9 {
+    padding-left: 25px;
+}
+.html-template .row {
+    padding-bottom:18px; 
+}  
+.html-template .row .col-md-9 h3 {
+    color: #333333;
+      font-size: 25px; 
+      font-weight: bold; 
+      font-family: 'Lato', sans-serif;
+     text-align: left!important;
+}
+.html-template .row .col-md-9 p {
+    font-size: 14px;
+     color: #333333;
+}
+.html-template .row .col-md-3 {
+      padding-top: 20px;
+      padding-right: 25px;
+}
+.html-template h2 {
+    text-align: center!important;
+     color: #005c2b!important;
+     font-size: 30px!important;
+     font-weight: 700!important;
+     font-family: 'Alegreya Sans', sans-serif!important;
+     padding-top: 14px;
+     padding-bottom: 14px;
+}
+.html-template h3 {
+    color: #333333; 
+      font-size: 25px; 
+      font-weight: bold; 
+      font-family: 'Lato', sans-serif; 
+      text-align: center;
+}
+.html-template p {
+    font-size: 14px;
+     color: #333333;
+}
+.html-template .video {
+     padding-left: 7.5%;
+      padding-right: 7.5%;
+}
+.collection-blog-row div .img-responsive{
+    padding: 15px 15px 15px 15px!important;
+}
+
+.collection-blog-row div h3 {
+   color: #005c2b!important;
+     text-decoration: underline!important;
+     font-size: 25px!important;
+     font-weight: bold;
+     font-family: 'Lato', sans-serif!important;
+     text-align: center;
+     padding-bottom: 14px;
+}
+.collection-blog-row div p {
+    font-size: 14px!important;
+      text-align: center!important;
+}
+.collection-blog-row div h3 a {
+    color: #005c2b!important;
+}
+ .collection-blog-row div h3 a:hover {
+     color: #009444!important;
+ }
+.collection-view-more {
+    text-align: center!important;
+}
+.collection-view-more a {
+     font-size: 14px!important;
+      text-align: center!important;
+      color: #005c2b!important;
+      font-weight: bold!important;
+      text-decoration: underline!important;
+      display: inline!important;
+}
+.collection-view-more:hover {
+     color: #009444!important; 
+}
+
+.accordion{
+   width:100%;
+   margin:0 auto;
+}
+
+/* accordion heading */
+.accordion h3{
+     font-size:22px;
+   font-weight: normal;
+   text-align: left;
+   margin-bottom:0px;
+   margin-top:0px;
+   background-color:transparent;
+   padding-top:7px;padding-bottom:7px;
+     font-family: 'Lato', sans-serif!important;
+     color: #333333!important;
+     position: relative;
+   
+}
+.accordion h3:hover{
+   cursor:pointer;
+}
+.accordion .icon-down-arrow {
+    float: right!important;
+     font-size: 22px!important;
+     padding-top: 7px!important;
+    transition: transform .2s ease;
+     transform: rotate(0);
+     left: 0;
+}
+
+
+
+/* accordion section content */
+.accordion div{
+   display:none;
+   padding-top:15px;
+     padding-bottom: 7px;
+/*     			height:200px; */
+/*     			line-height:20px; */
+     font-size: 14px;
+   font-family: 'Lato', sans-serif!important;
+     color: #333333!important;
+}
+
+@media screen and (max-width:480px){
+.accordion{
+       width:100%;
+       margin:0;
+}
+ .html-template .row {
+    padding-bottom:0px; 
+} 
+ .html-template h2 {
+    text-align: center!important;
+     color: #005c2b!important;
+     font-size: 32px!important;
+     font-weight: bolder!important;
+     font-family: 'Alegreya Sans', sans-serif!important;
+     padding-bottom: 0px!important;
+}
+ .html-template h3 {
+    color: #333333; 
+      font-size: 25px!important; 
+      font-weight: bold!important; 
+      font-family: 'Lato', sans-serif; 
+      text-align: center!important;
+     padding-bottom: 7px!important;
+}
+ .html-template .row .col-md-3 .img-responsive {
+     padding-left: 25%!important;
+   padding-right: 25%!important;
+   padding-bottom: 7px!important;
+
+ }
+ .html-template .row .col-md-9 h3 {
+     text-align: center!important;
+     
+ }
+ .html-template p {
+   font-size: 18px!important;
+}
+ .accordion h3{
+     font-size:18px!important;
+   font-weight: normal;
+   text-align: left!important;
+   margin-bottom:0px;
+   margin-top:0px;
+   background-color:transparent;
+   padding-top:7px;padding-bottom:7px;
+     font-family: 'Lato', sans-serif!important;
+     color: #333333!important;
+     position: relative;
+   
+}
+
+.accordion .icon-down-arrow {
+    float: right!important;
+     font-size: 20px!important;
+     padding-top: 0px!important;
+    transition: transform .2s ease;
+     transform: rotate(0);
+     left: 0;
+}
+ .collection-blog-row div h3 {            	
+     font-size: 36px!important;
+     padding-bottom: 7px!important;
+}
+ .collection-blog-row .col-md-4 {
+     padding-bottom: 20px!important;
+ }
+ .html-template .video {
+     padding-left: 0%!important;
+      padding-right: 0%!important;
+}
+ 
+}
