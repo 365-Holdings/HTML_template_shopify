@@ -9,7 +9,7 @@
 .html-template .row {
     padding-bottom:18px; 
      display: flex;
-     align-items: center!important;
+     align-items: center;
  }  
 .html-template .row .col-md-8 h3 {
   color: #333333;
@@ -48,10 +48,7 @@
   font-size: 14px;
      color: #333333;
 }
-.html-template .video {
-   padding-left: 7.5%;
-    padding-right: 7.5%;
-}
+
 .collection-blog-row div .img-responsive{
   padding: 15px 15px 15px 15px!important;
 }
@@ -140,6 +137,18 @@ font-family: 'Lato', sans-serif!important;
    display: flex!important;
 flex-flow: column-reverse!important;
  }
+.collection-video {
+width:100%!important;
+   padding-top: 0!important;
+   padding-bottom: 0!important;
+   margin-top:0!important;
+   margin-bottom:0!important;
+}
+.html-template .row {
+    padding-bottom:18px; 
+     display: block;
+     align-items: none;
+ }  
 .accordion{
    width:100%;
    margin:0;
