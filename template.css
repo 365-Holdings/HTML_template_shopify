@@ -1,90 +1,62 @@
 /* Custom css for HTML description template
 ====================================================== */
 
-.html-template .row .col-md-8 {
+.html-template .row .col-md-6 {
   padding-left: 25px;
+   padding-bottom: 10px!important;
 
 }
 
 .html-template .row {
-    padding-bottom:18px; 
+     
      display: flex;
      align-items: center;
  }  
-.html-template .row .col-md-8 h3 {
-  color: #333333;
-    font-size: 25px; 
-    font-weight: bold; 
-    font-family: 'Lato', sans-serif;
+.img-banner {
+    max-width: 100%!important; 
+ }
+
+.html-template .row .col-md-6 h3 {
+  color: #074522!important;
+    font-size: 26px; 
+    font-weight: 500!important; 
+    font-family: 'Alegreya Sans'!important;
      text-align: left!important;
+   padding-bottom: 14px;
 }
-.html-template .row .col-md-8 p {
-  font-size: 14px;
-     color: #333333;
+.html-template .row .col-md-6 p {
+  font-size: 16px;
+     color: #363636!important;
+     font-family: 'Lato', sans-serif!important;
      
 }
 .html-template .row .col-md-4 {
     padding-top: 20px;
-    padding-right: 25px;
-     padding-left: 25px;
+    
 }
 .html-template h2 {
   text-align: center!important;
-     color: #005c2b!important;
-     font-size: 30px!important;
+     color: #074522!important;
+     font-size: 35px!important;
      font-weight: 700!important;
-     font-family: 'Alegreya Sans', sans-serif!important;
-     padding-top: 14px;
-     padding-bottom: 14px;
+     font-family: 'Alegreya Sans'!important;
+     padding: 14px 200px 14px 200px!important;
  }
 .html-template h3 {
-  color: #333333; 
-    font-size: 25px; 
-    font-weight: bold; 
-    font-family: 'Lato', sans-serif; 
+  color: #074522!important; 
+    font-size: 26px; 
+    font-weight: 500!important; 
+    font-family: 'Alegreya Sans'!important; 
     text-align: center;
+     
  }
 .html-template p {
-  font-size: 14px;
-     color: #333333;
-}
-
-.collection-blog-row div .img-responsive{
-  padding: 15px 15px 15px 15px!important;
-}
-
-.collection-blog-row div h3 {
-   color: #005c2b!important;
-     text-decoration: underline!important;
-     font-size: 25px!important;
-     font-weight: bold;
+  font-size: 16px;
+     color: #363636!important;
      font-family: 'Lato', sans-serif!important;
-     text-align: center;
-     padding-bottom: 14px;
- }
-.collection-blog-row div p {
-  font-size: 14px!important;
-    text-align: center!important;
 }
-.collection-blog-row div h3 a {
-  color: #005c2b!important;
-}
- .collection-blog-row div h3 a:hover {
-   color: #009444!important;
- }
-.collection-view-more {
-  text-align: center!important;
-}
-.collection-view-more a {
-   font-size: 14px!important;
-    text-align: center!important;
-    color: #005c2b!important;
-    font-weight: bold!important;
-    text-decoration: underline!important;
-    display: inline!important;
-}
-.collection-view-more:hover {
-   color: #009444!important; 
+.accordion-content {
+font-size: 16px!important;
 }
 
 .accordion{
@@ -95,14 +67,15 @@ margin:0 auto;
 /* accordion heading */
 .accordion h3{
      font-size:22px;
-font-weight: normal;
+font-size: 22px; 
+    font-weight: 500!important;
 text-align: left;
 margin-bottom:0px;
 margin-top:0px;
 background-color:transparent;
 padding-top:7px;padding-bottom:7px;
-     font-family: 'Lato', sans-serif!important;
-     color: #333333!important;
+     font-family: 'Alegreya Sans'!important;
+     color: #074522!important;
      position: relative;
 
 }
@@ -111,8 +84,7 @@ cursor:pointer;
 }
 .accordion .icon-down-arrow {
   float: right!important;
-     font-size: 22px!important;
-     padding-top: 7px!important;
+     font-size: 22px!important;              	
     transition: transform .2s ease;
 transform: rotate(0);
 left: 0;
@@ -127,10 +99,43 @@ padding-top:15px;
      padding-bottom: 7px;
 /*     			height:200px; */
 /*     			line-height:20px; */
-     font-size: 14px;
+     font-size: 16px;
 font-family: 'Lato', sans-serif!important;
-     color: #333333!important;
+     color: #074522!important;
 }
+.collection-video {
+border-radius: 25px!important;
+
+}
+.icon-row {
+padding-bottom: 50px!important;
+}
+.icon-row .col-md-4 {
+text-align: center!important;
+padding: 0px 20px 10px 20px!important;
+}
+
+.icon-row .col-md-4 .img-thumbnail {
+border: none!important;
+width: 25%!important;
+height: 25%!important;
+}
+
+.icon-row .col-md-4 h3 {
+font-size: 26px!important;
+    font-weight: 500!important;
+}
+
+.icon-row .col-md-4 p {
+font-size: 16px!important;
+     color: #363636!important;
+     font-family: 'Lato', sans-serif!important;
+}
+.accordion-header {
+    margin-right: 20%!important; 
+ }
+
+
 
 @media screen and (max-width:480px){
 .reverse-order {
@@ -139,11 +144,13 @@ flex-flow: column-reverse!important;
  }
 .collection-video {
 width:100%!important;
-   padding-top: 0!important;
-   padding-bottom: 0!important;
-   margin-top:0!important;
-   margin-bottom:0!important;
+   padding-top: 0px!important;
+   padding-bottom: 0px!important;
+   margin-top:0px!important;
+   margin-bottom:0px!important;
+   
 }
+
 .html-template .row {
     padding-bottom:18px; 
      display: block;
@@ -158,17 +165,17 @@ width:100%!important;
  } 
 .html-template h2 {
   text-align: center!important;
-     color: #005c2b!important;
+     color: #074522!important;
      font-size: 32px!important;
-     font-weight: bolder!important;
+     font-weight: 700!important;
      font-family: 'Alegreya Sans', sans-serif!important;
-     padding-bottom: 0px!important;
+     padding: 0px!important;
  }
 .html-template h3 {
-  color: #333333; 
-    font-size: 25px!important; 
+  color: #074522!important; 
+    font-size: 26px!important; 
     font-weight: bold!important; 
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Alegreya Sans'!important; 
     text-align: center!important;
      padding-bottom: 7px!important;
  }
@@ -183,7 +190,9 @@ text-align: center!important;
      
 }
 .html-template p {
-   font-size: 18px!important;
+   font-size: 16px!important;
+     color: #363636!important;
+     font-family: 'Lato', sans-serif!important;
  }
 .accordion h3{
      font-size:18px!important;
@@ -193,27 +202,29 @@ margin-bottom:0px;
 margin-top:0px;
 background-color:transparent;
 padding-top:7px;padding-bottom:7px;
-     font-family: 'Lato', sans-serif!important;
-     color: #333333!important;
+     font-family: 'Alegreya Sans'!important;
+     color: #074522!important;
      position: relative;
+     
 
 }
 
+/* accordion section content */
+.accordion div{
+     font-size: 16px;
+font-family: 'Lato', sans-serif!important;
+     color: #363636!important;
+ } 
 .accordion .icon-down-arrow {
   float: right!important;
      font-size: 20px!important;
      padding-top: 0px!important;
+     margin-top: -3%!important;
     transition: transform .2s ease;
 transform: rotate(0);
 left: 0;
 }
-.collection-blog-row div h3 {            	
-     font-size: 36px!important;
-     padding-bottom: 7px!important;
- }
-.collection-blog-row .col-md-4 {
-padding-bottom: 20px!important;
-}
+
 .html-template .video {
    padding-left: 0%!important;
     padding-right: 0%!important;
