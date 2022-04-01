@@ -13,6 +13,8 @@
 > <p>When editing the html template, it is important that the class names, tag names, and the 'split' tag remains the same to ensure that all styling reaches its necessary blocks. All content and images can be edited otherwise.</p>
 > <p>All styling is located inside of the 'styles.scss.liquid' file nested inside of the Shopify store.</p>
 > <p>Each section inside of the 'template.html' code is notated to find the correct section the user is looking for.</p>
+> ## Remaining A.D.A. Compliant
+> <p>To ensure that the template remains ADA compliant, all images added to a live store must obtain "alt text".</p>
 
 ## Additional Questions and Information Needed?
 <p>For any additional questions, concerns, or troubleshooting, feel free to reach out via email to Derek@365-Holdings.com.</p>
